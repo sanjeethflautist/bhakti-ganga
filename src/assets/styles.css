@@ -1,0 +1,80 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-footer-content {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.bg-teal {
+  background-color: #008080; /* Teal color */
+}
+
+.bg-dark-gray {
+  background-color: #333333; /* Dark gray color */
+}
+
+.button {
+  background-color: #008080; /* Teal color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 10px; /* Add margin to separate buttons */
+}
+
+.button:hover {
+  background-color: #006666; /* Darker shade of teal */
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ffc107; /* Same color as the edit button */
+  font-size: 1.2em;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.icon-button .fa-trash {
+  color: #dc3545; /* Same color as the delete button */
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
